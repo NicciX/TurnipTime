@@ -1,0 +1,13 @@
+{
+  "Author": "NicciX",
+  "Name": "TurnipTime",
+  "Punchline": "Punch a turnip.",
+  "Description": "Target those pesky turnips!",
+  "InternalName": "Emobot",
+    "RepoUrl": "https://github.com/NicciX/TurnipTime",
+    "Tags": [
+        "turnips",
+        "target",
+        "automation"
+    ]
+}
