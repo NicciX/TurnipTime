@@ -6,7 +6,7 @@ using Dalamud.Interface.Windowing;
 using Dalamud.Plugin.Services;
 using SamplePlugin.Windows;
 
-namespace SamplePlugin;
+namespace TurnipTime;
 
 public sealed class Plugin : IDalamudPlugin
 {
@@ -17,7 +17,7 @@ public sealed class Plugin : IDalamudPlugin
     [PluginService] internal static IDataManager DataManager { get; private set; } = null!;
     [PluginService] internal static IPluginLog Log { get; private set; } = null!;
 
-    private const string CommandName = "/pmycommand";
+    private const string CommandName = "/tt";
 
     public Configuration Configuration { get; init; }
 
