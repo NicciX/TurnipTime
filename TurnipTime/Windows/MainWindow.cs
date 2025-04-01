@@ -25,7 +25,7 @@ public class MainWindow : Window, IDisposable
             MaximumSize = new Vector2(float.MaxValue, float.MaxValue)
         };
 
-        TurnipImagePath = TurnipImagePath;
+        TurnipImagePath = turnipImagePath;
         Plugin = plugin;
     }
 
@@ -54,7 +54,7 @@ public class MainWindow : Window, IDisposable
             // Check if this child is drawing
             if (child.Success)
             {
-                ImGui.TextUnformatted("Have a goat:");
+                ImGui.TextUnformatted("Have a Turnip:");
                 var turnipImage = Plugin.TextureProvider.GetFromFile(TurnipImagePath).GetWrapOrDefault();
                 if (turnipImage != null)
                 {
