@@ -2,13 +2,14 @@
 <Project Sdk="Dalamud.NET.Sdk/12.0.2">
   <PropertyGroup>
     <Version>0.0.0.1</Version>
-    <Description>A sample plugin.</Description>
+    <Description>Turnip Time.</Description>
     <PackageProjectUrl>https://github.com/NicciX/TurnipTime</PackageProjectUrl>
     <PackageLicenseExpression>AGPL-3.0-or-later</PackageLicenseExpression>
     <IsPackable>false</IsPackable>
     <PackageIcon>Mandragora_Genus_Icon.png</PackageIcon>
     <RepositoryUrl>https://github.com/NicciX/TurnipTime</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
+    <PackageTags>turnips; target; plugin; target bot; dalamud; ffxiv</PackageTags>
   </PropertyGroup>
 
   <ItemGroup>
