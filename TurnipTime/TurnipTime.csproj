@@ -6,6 +6,9 @@
     <PackageProjectUrl>https://github.com/NicciX/TurnipTime</PackageProjectUrl>
     <PackageLicenseExpression>AGPL-3.0-or-later</PackageLicenseExpression>
     <IsPackable>false</IsPackable>
+    <PackageIcon>Mandragora_Genus_Icon.png</PackageIcon>
+    <RepositoryUrl>https://github.com/NicciX/TurnipTime</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
   </PropertyGroup>
 
   <ItemGroup>
@@ -13,5 +16,12 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       <Visible>false</Visible>
     </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\Res\Mandragora_Genus_Icon.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
   </ItemGroup>
 </Project>
